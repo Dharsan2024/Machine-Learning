@@ -7,9 +7,9 @@ Downloaded from Kaggle: https://www.kaggle.com/datasets/ehsanzafari/colors-csv
 
 1. Clone the Repository
 2. Install Necessary Dependencies : pip install opencv-python
-                                    pip install numpy
-                                    pip install os-sys
-                                    pip install pandas                             
+                                    , pip install numpy
+                                    , pip install os-sys
+                                    , pip install pandas                             
 3. Set File Paths: Add your image path in image_path.
                    Add your CSV path in csv_path.
 4. Run the Script: color processing.py
