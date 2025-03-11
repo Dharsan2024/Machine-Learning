@@ -3,21 +3,17 @@ import pandas as pd
 import numpy as np
 import os
 
-# Set correct file paths
 image_path = r"X:\programmig\PYTHON\ML\image color processing\sist (1).jpg"
 csv_path = r"X:\programmig\PYTHON\ML\image color processing\colors.csv"
 
-# Check if image file exists
 if not os.path.exists(image_path):
     print("Error: Image file not found. Check the file path!")
     exit()
 
-# Check if colors.csv exists
 if not os.path.exists(csv_path):
     print("Error: colors.csv file not found. Check the file path!")
     exit()
 
-# Read the image
 img = cv2.imread(image_path)
 
 screen_width = 1280
