@@ -10,8 +10,8 @@ Downloaded from Kaggle: https://www.kaggle.com/datasets/ehsanzafari/colors-csv
                                     , pip install numpy
                                     , pip install os-sys
                                     , pip install pandas                             
-3. Set File Paths: Add your image path in image_path.
-                   Add your CSV path in csv_path.
+3. Set File Paths: Add your image path in image_path
+                   , Add your CSV path in csv_path.
 4. Run the Script: color processing.py
 5. Usage: Click on the image to detect the color.
 6. Press ESC to exit.
